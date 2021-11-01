@@ -47,6 +47,8 @@ def main():
             for status_message_id in status_message_ids:
                 user_client.edit_message_text(int(update_channel), status_message_id,
                                          edit_text)
+            user_client.pin_chat_message(int(update_channel), status_message_id) 
+
                 time.sleep(5)
             print(f"[INFO] everything done! sleeping for 3 hours...")
 
