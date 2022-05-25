@@ -51,9 +51,9 @@ def main():
 
 #           user_client.pin_chat_message(int(update_channel), status_message_id) 
 
-            print(f"[INFO] everything done! sleeping for 3 hours...")
+            print(f"[INFO] everything done! sleeping...")
 
-            time.sleep(864000)
+            time.sleep(19800)
 
 
 if __name__ == "__main__":
