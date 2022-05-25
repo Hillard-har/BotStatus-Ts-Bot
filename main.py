@@ -49,7 +49,7 @@ def main():
                                          edit_text)
                 time.sleep(5) 
 
-            user_client.pin_chat_message(int(update_channel), status_message_id) 
+#           user_client.pin_chat_message(int(update_channel), status_message_id) 
 
             print(f"[INFO] everything done! sleeping for 3 hours...")
 
